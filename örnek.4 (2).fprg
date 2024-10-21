@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="programlamaya giri&#351;"/>
+        <attribute name="authors" value="nuhbe"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-20 09:11:51 &#214;S"/>
+        <attribute name="created" value="bnVoYmU7QkVOSFVSOzIwMjQtMTAtMTk7MDE6Mjc6NTggw5ZTOzI0MDg="/>
+        <attribute name="edited" value="bnVoYmU7QkVOSFVSOzIwMjQtMTAtMjA7MDk6MTE6NTEgw5ZTOzU7MjUwNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vize" type="Integer" array="False" size=""/>
+            <assign variable="vize" expression="0"/>
+            <declare name="final" type="Integer" array="False" size=""/>
+            <assign variable="final" expression="0"/>
+            <output expression="&quot;vizeyi girin&quot;" newline="True"/>
+            <input variable="vize"/>
+            <output expression="&quot;finali girin&quot;" newline="True"/>
+            <input variable="final"/>
+            <assign variable="vize" expression="vize*40/100"/>
+            <assign variable="final" expression="final*60/100"/>
+            <declare name="sonu&#231;" type="Integer" array="False" size=""/>
+            <assign variable="sonu&#231;" expression="vize+final"/>
+            <declare name="ge&#231;ti" type="Integer" array="False" size=""/>
+            <declare name="kald&#305;" type="Integer" array="False" size=""/>
+            <if expression="sonu&#231;&gt;=60">
+                <then>
+                    <output expression="&quot;ge&#231;ti&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;kald&#305;&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

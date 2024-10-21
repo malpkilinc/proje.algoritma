@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#246;rnek.2"/>
+        <attribute name="authors" value="theEfe"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-22 12:48:56 &#214;&#214;"/>
+        <attribute name="created" value="dGhlRWZlO0RFU0tUT1AtUTZVNTBPVjsyMDI0LTEwLTIyOzEyOjQyOjMyIMOWw5Y7MzIwNA=="/>
+        <attribute name="edited" value="dGhlRWZlO0RFU0tUT1AtUTZVNTBPVjsyMDI0LTEwLTIyOzEyOjQ4OjU2IMOWw5Y7MTszMzI0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="giri&#351;" type="Integer" array="False" size=""/>
+            <assign variable="giri&#351;" expression="1"/>
+            <declare name="toplam" type="Integer" array="False" size=""/>
+            <assign variable="toplam" expression="0"/>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <assign variable="sayi" expression="0"/>
+            <while expression="giri&#351;!=0">
+                <input variable="giri&#351;"/>
+                <assign variable="toplam" expression="toplam + giri&#351;"/>
+                <assign variable="sayi" expression="sayi + 1"/>
+            </while>
+            <output expression="toplam/(sayi-1)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
